@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+<<<<<<< HEAD
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -31,3 +32,5 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+=======
+>>>>>>> 9d5e09a50aad86c0ef9c9120a4de5aaba03f8af1
