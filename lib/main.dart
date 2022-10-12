@@ -23,11 +23,4 @@ class MyApp extends StatelessWidget {
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      decoration: const BoxDecoration(),
-      child: const Icon(Icons.hear),
-    );
-  }
 }
