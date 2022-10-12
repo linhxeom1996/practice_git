@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -15,6 +13,10 @@ class HomePage extends StatelessWidget {
             icon: const Icon(Icons.card_travel),
           )
         ],
+        title: const Text(
+          "Hello",
+          style: TextStyle(color: Colors.black, fontSize: 20),
+        ),
       ),
     );
   }
