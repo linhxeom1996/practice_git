@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
-
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({
 
   // This widget is the root of your application.
   @override
@@ -19,6 +15,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+<<<<<<< HEAD
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -31,3 +28,5 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+=======
+>>>>>>> feature/feature_3
