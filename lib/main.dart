@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: const BoxDecoration(),
-      child: const Icon(Icons.headphones),
+      child: const Icon(Icons.hear),
     );
   }
 }
